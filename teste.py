@@ -4,15 +4,11 @@ from tkinter import messagebox
 
  
 
-# Função para exibir uma mensagem informativa
-
 def exibir_mensagem(mensagem):
 
     messagebox.showinfo("Mensagem", mensagem)
 
  
-
-# Função para avançar para a próxima tela
 
 def avancar_tela():
 
@@ -24,8 +20,6 @@ def avancar_tela():
 
  
 
-# Função para voltar para a tela anterior
-
 def voltar_tela():
 
     global tela_atual
@@ -35,8 +29,6 @@ def voltar_tela():
     atualizar_tela()
 
  
-
-# Função para realizar o login
 
 def fazer_login():
 
